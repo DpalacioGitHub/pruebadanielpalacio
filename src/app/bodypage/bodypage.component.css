@@ -1,0 +1,183 @@
+.center {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.noMargen{
+    margin: 0 !important;
+}
+
+
+.noMargenOP{
+    margin: 70px 0 0 0 !important;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    /* height: calc(100vh -80px); */
+    /* flex-direction: column; */
+    justify-content: center;
+    background-image: url("https://i.ibb.co/XC5C24G/Banner.jpg");
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
+}
+
+.titulo{
+    font-size:62px;
+    color: white;
+}
+
+.subtitulo{
+    font-size: 22px;
+    color: white;
+}
+
+.btnHome{
+    background-color: #001e27;
+    border: none;
+    color: white;
+    padding: 17px 0px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 0px 0px 14px -5px black;
+}
+
+.centerBtns{
+    margin: auto;
+    text-align: center;
+}
+
+#funciona{
+    transition: .6s;
+}
+
+/* body */
+
+.separate{
+    margin-top: 6%;
+}
+
+.titleBody{
+    text-align: center;
+    color: #001e27;
+    font-size:54px
+}
+
+.txts{
+    width:80%;
+    margin: auto;
+}
+
+.txts p {
+    text-align: center;
+    font-size:20px; 
+    line-height: 27px;
+}
+
+.contenidotxt{
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgOne{
+    width:100%;
+    border-radius: 8px;
+}
+
+.imgOneCards{
+    width:70%;
+    border-radius: 8px;
+}
+
+.titleCards{
+    font-size:24px;
+    text-align:center;
+    color: #001e27;
+}
+
+@media (max-width: 952px){
+
+    .titulo{
+        font-size:62px;
+        color: white;
+        line-height: 54px;
+    }
+    
+    .subtitulo{
+        font-size: 22px;
+        color: white;
+    }
+   
+}
+
+@media (max-width: 858px){
+
+    .titulo{
+        font-size:55px;
+        color: white;
+        line-height: 54px;
+    }
+    
+    .subtitulo{
+        font-size: 22px;
+        color: white;
+    }
+
+    .separate{
+        margin-top: 16%;
+    }
+    
+    .titleBody{
+        text-align: center;
+        color: #001e27;
+        font-size:54px
+    }
+
+    .txts{
+        width:80%;
+        margin: auto;
+    }
+    
+    .txts p {
+        text-align: justify;
+        font-size:20px;
+        line-height:27px;
+    }
+
+    .contenidotxt{
+        display: flex;
+        margin: 82px auto 32px;
+        padding: 0 50px;
+        max-width: 960px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgOne{
+        width:100%;
+        padding: 8px;
+    }
+
+    .imgOneCards{
+        width:86%;
+        border-radius: 8px;
+    }
+
+}
